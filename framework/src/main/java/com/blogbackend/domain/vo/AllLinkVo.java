@@ -1,2 +1,28 @@
-package com.blogbackend.domain.vo;public class AllLinkVo {
+package com.blogbackend.domain.vo;
+
+import lombok.Data;
+
+@Data
+public class AllLinkVo {
+    private Long id;
+
+    /**
+     *
+     */
+    private String name;
+
+    /**
+     *
+     */
+    private String logo;
+
+    /**
+     *
+     */
+    private String description;
+
+    /**
+     * 网站地址
+     */
+    private String address;
 }
