@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/article")
+@RequestMapping("/front/category")
 public class CategoryController {
     @Autowired
     private CategoryService categoryService;
-    @GetMapping("/category")
+    @GetMapping("/getCategoryList")
     public ResponseResult category() {
         ResponseResult category = categoryService.getCategorList();
         return category;

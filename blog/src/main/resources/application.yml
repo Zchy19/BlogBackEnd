@@ -14,3 +14,8 @@ mybatis-plus:
       logic-delete-value: 1
       logic-not-delete-value: 0
       id-type: auto
+#logging:
+#  level:
+#    root: debug
+server:
+  port: 8888
